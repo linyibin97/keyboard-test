@@ -1,0 +1,66 @@
+.Keyboard {
+  position: relative;
+  background-color: #eee;
+  width: 1050px;
+  height: 450px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.Key {
+  background-color: #ccc;
+  color: black;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 60px;
+  width: 60px;
+  padding:2px 6px 10px 6px;
+}
+
+.KeyTop {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  padding: 2px ;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.pressingKey {
+  background-color: #999;
+}
+
+.pressingKey .KeyTop {
+  background-color: #999;
+  background-color: #eee;
+}
+
+.w125 {
+  width: 75px;
+}
+
+.w150 {
+  width: 90px;
+}
+
+.w175 {
+  width: 105px;
+}
+
+.w200 {
+  width: 120px;
+}
+
+.w225 {
+  width: 135px;
+}
+
+.w625 {
+  width: 375px;
+}
