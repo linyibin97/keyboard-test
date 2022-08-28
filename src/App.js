@@ -1,12 +1,13 @@
 import './App.css';
 import React from 'react';
+import layout68 from "./layout/68.js"
 import layout75 from "./layout/75.js"
 import layout87 from "./layout/87.js"
 import { Radio, Drawer, Button, Switch } from 'antd';
 import { SettingOutlined } from '@ant-design/icons';
 
 const u = 60 // 1u为60px
-const layouts = [layout87, layout75]
+const layouts = [layout87, layout75, layout68]
 export default class App extends React.Component  {
   constructor() {
     super()
