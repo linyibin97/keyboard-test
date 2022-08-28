@@ -2,6 +2,10 @@ import createKey from "./utils"
 
 export default {
     name: "75",
+    keyboard: {
+       w: 17.5,
+       h: 7.5
+    },
     keys: [
         createKey(["Esc"], "Escape", 0.5, 0.5),
         createKey(["F1"], "F1", 1.75, 0.5),

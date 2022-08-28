@@ -1,9 +1,10 @@
 import './App.css';
 import React from 'react';
 import layout75 from "./layout/75.js"
+import layout87 from "./layout/87.js"
 
 const u = 60 // 1u为60px
-const layout = layout75
+const layout = layout87
 export default class App extends React.Component  {
   constructor() {
     super()
@@ -36,7 +37,13 @@ export default class App extends React.Component  {
     const { pressing, pressed } = this.state
     return (
       <div className="App">
-         <div className="Keyboard">
+        <div 
+          className="Keyboard"
+          style={{
+            width: layout.keyboard.w * u + "px",
+            height: layout.keyboard.h * u + "px"
+          }}
+        >
           {
             layout.keys.map((key, i) => (
               <div 

@@ -7,8 +7,6 @@
 .Keyboard {
   position: relative;
   background-color: #eee;
-  width: 1050px;
-  height: 450px;
   box-sizing: border-box;
   border: 1px solid black;
   border-radius: 10px;
@@ -21,8 +19,6 @@
   box-sizing: border-box;
   border: 1px solid black;
   border-radius: 5px;
-  height: 60px;
-  width: 60px;
   padding:2px 6px 10px 6px;
 }
 
