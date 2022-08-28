@@ -1,7 +1,9 @@
+@import '~antd/dist/antd.css';
+
 .App {
   display: flex;
-  justify-content: center;
-  
+  align-items: center;
+  flex-direction: column;
 }
 
 .Keyboard {
@@ -10,12 +12,13 @@
   box-sizing: border-box;
   border: 1px solid black;
   border-radius: 10px;
+  margin-top: 30px;
 }
 
 .Key {
   background-color: #ccc;
   color: black;
-  font-size: 16px;
+  font-size: 12px;
   box-sizing: border-box;
   border: 1px solid black;
   border-radius: 5px;
@@ -39,30 +42,26 @@
 }
 
 .pressingKey .KeyTop {
-  background-color: #999;
   background-color: #eee;
 }
 
-.w125 {
-  width: 75px;
+.pressedKey {
+  font-weight: bold;
+  color: #05f;
 }
 
-.w150 {
-  width: 90px;
+.SettingsButton {
+  color: #999;
+  margin-top: 20px;
 }
 
-.w175 {
-  width: 105px;
+.settingsItem {
+  margin-bottom: 20px;
+  display: flex;
 }
 
-.w200 {
-  width: 120px;
-}
-
-.w225 {
-  width: 135px;
-}
-
-.w625 {
-  width: 375px;
+.settingsTitle {
+  width: 10%;
+  margin-right: 20px;
+  text-align: right;
 }
